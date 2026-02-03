@@ -1,0 +1,715 @@
+fileFormatVersion: 2
+guid: 6f6595eb8505465468c8e5415f2f2084
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1412620896327982897
+    second: Bild (4)_0
+  - first:
+      213: 8103827301601638576
+    second: Bild (4)_1
+  - first:
+      213: 3247830772464041707
+    second: Bild (4)_2
+  - first:
+      213: 672088835488825414
+    second: Bild (4)_3
+  - first:
+      213: 4587112091376837353
+    second: Bild (4)_4
+  - first:
+      213: -7129008085790080737
+    second: Bild (4)_5
+  - first:
+      213: -9213885919725498719
+    second: Bild (4)_6
+  - first:
+      213: 8584344946843326727
+    second: Bild (4)_7
+  - first:
+      213: 4792503200662801187
+    second: Bild (4)_8
+  - first:
+      213: 973228643326140906
+    second: Bild (4)_9
+  - first:
+      213: -2080313246834176824
+    second: Bild (4)_10
+  - first:
+      213: -4482986798258537687
+    second: Bild (4)_11
+  - first:
+      213: -8094365071979863165
+    second: Bild (4)_12
+  - first:
+      213: -293558998262611945
+    second: Bild (4)_13
+  - first:
+      213: 8403411329938614418
+    second: Bild (4)_14
+  - first:
+      213: 2230934347280079569
+    second: Bild (4)_15
+  - first:
+      213: 1437823937288998471
+    second: Bild (4)_16
+  - first:
+      213: 5601960768000404279
+    second: Bild (4)_17
+  - first:
+      213: 7222988736464850670
+    second: Bild (4)_18
+  - first:
+      213: 1324884516321881892
+    second: Bild (4)_19
+  - first:
+      213: 4593436972129367948
+    second: Bild (4)_20
+  - first:
+      213: 85627071250351035
+    second: Bild (4)_21
+  - first:
+      213: -8463001960772310402
+    second: Bild (4)_22
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Bild (4)_0
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 446
+        width: 127
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13f5ce78833aa9310800000000000000
+      internalID: 1412620896327982897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bild (4)_1
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 442
+        width: 130
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b8f311bef3967070800000000000000
+      internalID: 8103827301601638576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bild (4)_2
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 442
+        width: 172
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bee3d4b31ec921d20800000000000000
+      internalID: 3247830772464041707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bild (4)_3
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 440
+        width: 232
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64041d82c3db35900800000000000000
+      internalID: 672088835488825414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bild (4)_4
+      rect:
+        serializedVersion: 2
+        x: 907
+        y: 438
+        width: 259
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e26a6fb422b8af30800000000000000
+      internalID: 4587112091376837353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bild (4)_5
+      rect:
+        serializedVersion: 2
+        x: 1186
+        y: 437
+        width: 322
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f114895caeca01d90800000000000000
+      internalID: -7129008085790080737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bild (4)_6
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 367
+        width: 124
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1aec9c1c293b12080800000000000000
+      internalID: -9213885919725498719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bild (4)_7
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 366
+        width: 94
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70914025f38b12770800000000000000
+      internalID: 8584344946843326727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bild (4)_8
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 391
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32bcd6ce444628240800000000000000
+      internalID: 4792503200662801187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bild (4)_9
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 356
+        width: 66
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae1a0b27b4a918d00800000000000000
+      internalID: 973228643326140906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bild (4)_10
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 366
+        width: 61
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ccc8ecbf1e3123e0800000000000000
+      internalID: -2080313246834176824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bild (4)_11
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 378
+        width: 37
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92bb805424b39c1c0800000000000000
+      internalID: -4482986798258537687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bild (4)_12
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 366
+        width: 22
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 383af425ad90baf80800000000000000
+      internalID: -8094365071979863165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bild (4)_13
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 366
+        width: 73
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71000fb75a11debf0800000000000000
+      internalID: -293558998262611945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bild (4)_14
+      rect:
+        serializedVersion: 2
+        x: 907
+        y: 366
+        width: 91
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 298eb76d41aee9470800000000000000
+      internalID: 8403411329938614418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bild (4)_15
+      rect:
+        serializedVersion: 2
+        x: 1030
+        y: 366
+        width: 25
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dad8d608fed5fe10800000000000000
+      internalID: 2230934347280079569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bild (4)_16
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 366
+        width: 125
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74e0aa7c04d24f310800000000000000
+      internalID: 1437823937288998471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bild (4)_17
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 368
+        width: 39
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73ba65653a92ebd40800000000000000
+      internalID: 5601960768000404279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bild (4)_18
+      rect:
+        serializedVersion: 2
+        x: 1318
+        y: 378
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eee82ad9cf53d3460800000000000000
+      internalID: 7222988736464850670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bild (4)_19
+      rect:
+        serializedVersion: 2
+        x: 1321
+        y: 366
+        width: 169
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42fe7c3b27fe26210800000000000000
+      internalID: 1324884516321881892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bild (4)_20
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 368
+        width: 31
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c87baedc69a2fbf30800000000000000
+      internalID: 4593436972129367948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bild (4)_21
+      rect:
+        serializedVersion: 2
+        x: 997
+        y: 366
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb3c80d1e55303100800000000000000
+      internalID: 85627071250351035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bild (4)_22
+      rect:
+        serializedVersion: 2
+        x: 1219
+        y: 367
+        width: 43
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7a6bba3e806d8a80800000000000000
+      internalID: -8463001960772310402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Bild (4)_0: 1412620896327982897
+      Bild (4)_1: 8103827301601638576
+      Bild (4)_10: -2080313246834176824
+      Bild (4)_11: -4482986798258537687
+      Bild (4)_12: -8094365071979863165
+      Bild (4)_13: -293558998262611945
+      Bild (4)_14: 8403411329938614418
+      Bild (4)_15: 2230934347280079569
+      Bild (4)_16: 1437823937288998471
+      Bild (4)_17: 5601960768000404279
+      Bild (4)_18: 7222988736464850670
+      Bild (4)_19: 1324884516321881892
+      Bild (4)_2: 3247830772464041707
+      Bild (4)_20: 4593436972129367948
+      Bild (4)_21: 85627071250351035
+      Bild (4)_22: -8463001960772310402
+      Bild (4)_3: 672088835488825414
+      Bild (4)_4: 4587112091376837353
+      Bild (4)_5: -7129008085790080737
+      Bild (4)_6: -9213885919725498719
+      Bild (4)_7: 8584344946843326727
+      Bild (4)_8: 4792503200662801187
+      Bild (4)_9: 973228643326140906
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

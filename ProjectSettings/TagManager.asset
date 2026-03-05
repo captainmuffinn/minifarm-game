@@ -51,13 +51,10 @@ TagManager:
     uniqueID: 4189426099
     locked: 0
   - name: Player
-    uniqueID: 2062876821
-    locked: 0
-  - name: Walkbehind
-    uniqueID: 4197528121
+    uniqueID: 899605891
     locked: 0
   - name: Deco
-    uniqueID: 4177025517
+    uniqueID: 2730413133
     locked: 0
   m_RenderingLayers:
   - Default

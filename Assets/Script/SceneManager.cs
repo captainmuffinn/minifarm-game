@@ -17,7 +17,7 @@ public class StartMenue : MonoBehaviour
 
     public void GoToGameScen()
     {
-        SceneManager.LoadScene("Game");
+        SceneManager.LoadScene("SampleScene");
     }
 
     public void Quit()

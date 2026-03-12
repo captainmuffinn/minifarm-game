@@ -119,6 +119,7 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+<<<<<<< HEAD
 --- !u!1 &18020838
 GameObject:
   m_ObjectHideFlags: 0
@@ -1028,6 +1029,8 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+=======
+>>>>>>> 8567cc599fc1f339fa2e9f9f144e489e13beb12d
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -1202,7 +1205,11 @@ MonoBehaviour:
   m_Intensity: 1
   m_LightVolumeIntensity: 1
   m_LightVolumeEnabled: 0
+<<<<<<< HEAD
   m_ApplyToSortingLayers: 0000000083e59e354dccbea2
+=======
+  m_ApplyToSortingLayers: 00000000
+>>>>>>> 8567cc599fc1f339fa2e9f9f144e489e13beb12d
   m_LightCookieSprite: {fileID: 0}
   m_DeprecatedPointLightCookieSprite: {fileID: 0}
   m_LightOrder: 0
@@ -1249,6 +1256,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 --- !u!1 &1266722868
 GameObject:
   m_ObjectHideFlags: 0
@@ -1297,6 +1305,8 @@ Transform:
   - {fileID: 1894317661}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+>>>>>>> 8567cc599fc1f339fa2e9f9f144e489e13beb12d
 --- !u!1 &1455862846
 GameObject:
   m_ObjectHideFlags: 0
@@ -1355,7 +1365,11 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
+<<<<<<< HEAD
   m_Constraints: 4
+=======
+  m_Constraints: 0
+>>>>>>> 8567cc599fc1f339fa2e9f9f144e489e13beb12d
 --- !u!95 &1455862849
 Animator:
   serializedVersion: 7
@@ -1404,7 +1418,11 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
+<<<<<<< HEAD
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+=======
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+>>>>>>> 8567cc599fc1f339fa2e9f9f144e489e13beb12d
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1423,12 +1441,20 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
+<<<<<<< HEAD
   m_SortingLayerID: 899605891
   m_SortingLayer: 4
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_Sprite: {fileID: -5215294921018556061, guid: 091438de75308674ea8caee84a236d03,
     type: 3}
+=======
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_MaskInteraction: 0
+  m_Sprite: {fileID: 21300000, guid: 3c12aac50d7b5a1408c35d11e273d47d, type: 2}
+>>>>>>> 8567cc599fc1f339fa2e9f9f144e489e13beb12d
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1453,6 +1479,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 --- !u!1 &1894317660
 GameObject:
   m_ObjectHideFlags: 0
@@ -11579,6 +11606,8 @@ TilemapCollider2D:
   m_MaximumTileChangeCount: 1000
   m_ExtrusionFactor: 0
   m_UseDelaunayMesh: 0
+=======
+>>>>>>> 8567cc599fc1f339fa2e9f9f144e489e13beb12d
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -11586,4 +11615,7 @@ SceneRoots:
   - {fileID: 519420032}
   - {fileID: 619394802}
   - {fileID: 1455862851}
+<<<<<<< HEAD
   - {fileID: 1266722870}
+=======
+>>>>>>> 8567cc599fc1f339fa2e9f9f144e489e13beb12d

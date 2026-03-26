@@ -50,7 +50,7 @@ TagManager:
   - name: Collision
     uniqueID: 4189426099
     locked: 0
-  - name: Player
+  - name: Walkbehind
     uniqueID: 899605891
     locked: 0
   - name: Deco

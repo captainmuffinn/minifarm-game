@@ -14,5 +14,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Interior.unity
     guid: ade575b6ca399ce4ba9c204740d52755
+  - enabled: 1
+    path: Assets/Scenes/Farmen.unity
+    guid: 04e1c086c4bb87c4183884567e967650
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0

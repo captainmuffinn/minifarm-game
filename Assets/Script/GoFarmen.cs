@@ -7,4 +7,11 @@ public class GoFarmen : MonoBehaviour
     {
         SceneManager.LoadScene("Farmen");
     }
+
+
+    public void GoToGame()
+    {
+        SceneManager.LoadScene("Game");
+    }
+
 }

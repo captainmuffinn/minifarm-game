@@ -3,30 +3,38 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 using UnityEngine.Events;
-using worldtime;
-
 
 namespace worldtime
 {
     public class WorldTimeWatcher : MonoBehaviour
     {
         [SerializeField] private DayNightCircle _worldTime;
-        
-        [SerializeField] private List<sheulde> _sheulde;
+
+        [SerializeField] private List<Sheulde> _sheulde;
+
+        private int _lastHour = -1;
+        private int _lastMinute = -1;
+
         private void Start()
         {
             _worldTime.WordtimeChanged += CheckSheulde;
-
         }
 
         private void OnDestroy()
         {
             _worldTime.WordtimeChanged -= CheckSheulde;
-
         }
 
-        private void CheckSheulde (object sender,TimeSpan newTime)
+        private void CheckSheulde(object sender, TimeSpan newTime)
         {
+            // Verhindert mehrfaches Auslösen in derselben Minute
+            if (_lastHour == newTime.Hours &&
+                _lastMinute == newTime.Minutes)
+                return;
+
+            _lastHour = newTime.Hours;
+            _lastMinute = newTime.Minutes;
+
             var sheulde = _sheulde.FirstOrDefault(s =>
                 s.hour == newTime.Hours &&
                 s.minute == newTime.Minutes);
@@ -35,11 +43,11 @@ namespace worldtime
         }
 
         [Serializable]
-        private class sheulde
+        private class Sheulde
         {
             public int hour;
             public int minute;
-            public UnityEvent _action ;
+            public UnityEvent _action;
         }
     }
 }

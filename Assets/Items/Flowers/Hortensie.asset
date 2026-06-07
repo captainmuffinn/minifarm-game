@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c63ce4766aa174346b3c3d258381b9f1, type: 3}
+  m_Name: Hortensie
+  m_EditorClassIdentifier: Assembly-CSharp::Crop
+  flowerName: Hortensie
+  growthStages:
+  - {fileID: -250343301, guid: 9b0aadb50bd15cf4fbdcab0e424ab0f7, type: 3}
+  - {fileID: -2062459020, guid: 9b0aadb50bd15cf4fbdcab0e424ab0f7, type: 3}
+  - {fileID: -7166441143154851244, guid: 46edc61ef1eb44f4da1f7f373194f7bc, type: 3}
+  - {fileID: -957601114, guid: 46edc61ef1eb44f4da1f7f373194f7bc, type: 3}
+  harvestIcon: {fileID: 8222371606489337732, guid: 9b0aadb50bd15cf4fbdcab0e424ab0f7,
+    type: 3}
+  seedIcon: {fileID: -7617422945367371574, guid: 9b0aadb50bd15cf4fbdcab0e424ab0f7,
+    type: 3}

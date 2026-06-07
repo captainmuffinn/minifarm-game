@@ -9,7 +9,7 @@ public class CharacterMoving : MonoBehaviour
 {
     Rigidbody2D rigidbody2d;
     Animator animator;
-    float speed = 2f;
+    float speed = 1.6f;
     Vector2 motionVector;
     private Vector2 lastDirection = Vector2.down;
     void Awake()
@@ -28,6 +28,11 @@ public class CharacterMoving : MonoBehaviour
             Keyboard.current.sKey.isPressed ? -1 :
             Keyboard.current.wKey.isPressed ? 1 : 0;
 
+        if(horizontal != 0 && vertical != 0)
+        {
+            horizontal /= 1.5f;
+            vertical /= 1.5f;
+        }
         motionVector = new Vector2(horizontal, vertical);
 
         if (motionVector.sqrMagnitude > 0.01f)

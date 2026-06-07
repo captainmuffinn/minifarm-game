@@ -8,6 +8,21 @@ namespace worldtime
 {
     public class WorldTimeWatcher : MonoBehaviour
     {
+
+        public static WorldTimeWatcher Instance;
+
+        void Awake()
+        {
+            if (Instance == null)
+            {
+                Instance = this;
+                DontDestroyOnLoad(gameObject);
+            }
+            else
+            {
+                Destroy(gameObject);
+            }
+        }
         [SerializeField] private DayNightCircle _worldTime;
 
         [SerializeField] private List<Sheulde> _sheulde;
@@ -17,6 +32,9 @@ namespace worldtime
 
         private void Start()
         {
+            if (_worldTime == null)
+                _worldTime = DayNightCircle.Instance;
+
             _worldTime.WordtimeChanged += CheckSheulde;
         }
 
@@ -27,7 +45,6 @@ namespace worldtime
 
         private void CheckSheulde(object sender, TimeSpan newTime)
         {
-            // Verhindert mehrfaches Auslösen in derselben Minute
             if (_lastHour == newTime.Hours &&
                 _lastMinute == newTime.Minutes)
                 return;

@@ -1,29 +1,14 @@
-using System;
 using UnityEngine;
 using TMPro;
+using worldtime;
 
-namespace worldtime
+public class TimeUI : MonoBehaviour
 {
-    [RequireComponent(typeof(TMP_Text))]
-    public class WordtimeDisplay : MonoBehaviour
+    [SerializeField] private TextMeshProUGUI timeText;
+
+    void Update()
     {
-        [SerializeField] private DayNightCircle _worldTime;
-        private TMP_Text _text;
-
-        private void Awake()
-        {
-            _text = GetComponent<TMP_Text>();
-            _worldTime.WordtimeChanged += OnWorldTimeChanged;
-        }
-
-        private void OnDestroy()
-        {
-            _worldTime.WordtimeChanged -= OnWorldTimeChanged;
-        }
-
-        private void OnWorldTimeChanged(object sender, TimeSpan newTime)
-        {
-            _text.SetText(newTime.ToString(@"hh\:mm"));
-        }
+        if (DayNightCircle.Instance == null) return;
+        timeText.text = DayNightCircle.Instance.GetTimeString();
     }
 }

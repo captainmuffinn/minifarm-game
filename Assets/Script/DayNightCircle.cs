@@ -9,6 +9,10 @@ namespace worldtime
         public TimeSpan CurrentTime => _currentTime;
         public static DayNightCircle Instance;
 
+        private int _currentDay = 1;
+        public int CurrentDay => _currentDay;
+
+
         void Awake()
         {
             if (Instance == null)
@@ -51,6 +55,7 @@ namespace worldtime
 
         public void ResetToMorning()
         {
+            _currentDay++;
             _currentTime = TimeSpan.FromHours(_startHour);
             WordtimeChanged?.Invoke(this, _currentTime);
             FlowerManager.Instance.GrowAll();
